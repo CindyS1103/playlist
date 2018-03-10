@@ -2,10 +2,59 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Playlist Splash Page</title>
+    <script defer src="resources/jquery-2.2.4.min.js"></script>
+    <script defer src="resources/materialize.min.js"></script>
+    <script defer type="text/javascript" src="resources/app.js"></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="resources/style.css">
+
   </head>
   <body>
-      
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper">
+        </div>
+      </div>
+      </nav>
+    <main>
+      <div class="album_container">
+        <div class="slide">
+          <img src="images/ghost_in_the_machine.jpg" id="myPicture2"/>
+        </div>
+        <div class="slide">
+          <img src="images/21.jpg" id="myPicture"/>
+        </div>
+        <div class="slide">
+          <img src="images/the_division_bell.jpg" id="myPicture3"/>
+        </div>
+        <div class="slide">
+          <img src="resources/fadedTrack.jpg" id="myPicture4"/>
+        </div>
+      </div>
+      <div class="tracks_container">
+        <div style="text-align:center">
+
+        <div id="track_bin">
+          <h1>track bin</h1>
+        </div>
+
+        <div id="choose-tracks"></div>
+          <button  class="button" type="submit" name="action" onclick=window.location="file:///Users/cindyschlegel/projects/playlist/index2.html">choose tracks</button>
+      </div>
+    </main>
+
+    <footer class="page-footer" style="position:fixed;bottom:0;left:0;width:100%;">
+      <div class="footer-copyright">
+        <div class="container">
+          © 2018 Cindy Schlegel
+        </div>
+      </div>
+    </footer>
 
   </body>
 </html>
